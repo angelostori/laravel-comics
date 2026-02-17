@@ -1,0 +1,12 @@
+<footer>
+    <hr>
+    <section>
+        <div>
+            <ul>
+                <li>movies</li>
+                <li>tv</li>
+                <li>games</li>
+            </ul>
+        </div>
+    </section>
+</footer>
