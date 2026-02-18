@@ -6,7 +6,7 @@
                 <a class="nav-link" href="#">CHARACTERS</a>
             </div>
             <div>
-                <a class="nav-link active" href="#">COMICS</a>
+                <a class="nav-link active" href="/">COMICS</a>
             </div>
             <div>
                 <a class="nav-link" href="#">MOVIES</a>

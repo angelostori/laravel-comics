@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    $footerlinks = config('footerlinks');
+
+    return view('home', compact('footerlinks'));
 })->name("home");
 
 Route::get('/details', function () {
