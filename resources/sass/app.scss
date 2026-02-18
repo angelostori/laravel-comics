@@ -40,7 +40,7 @@ main {
 
 .jumbotron {
     background: url("../../public/img/jumbotron.jpg") top center / cover no-repeat;
-    height: 350px;
+    height: 465px;
     margin-bottom: 55px;
 }
 
@@ -125,17 +125,18 @@ main button.btn {
 
 /* ---------- MID ---------- */
 .footer-mid {
+    background: url("../../public/img/footer-bg.jpg") center/cover no-repeat;
     color: white;
     padding: 40px 0;
-    height: 440px;
+    height: 530px;
     overflow: hidden;
 }
 
 .footer-mid img {
     position: relative;
-    top: -100px;
-    height: 550px;
-    rotate: 20deg;
+    top: -70px;
+    height: 600px;
+    rotate: 5deg;
 }
 
 .footer-mid a {

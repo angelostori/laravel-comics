@@ -42,7 +42,7 @@
                  @endforeach
              </ul>
 
-             <img src="{{ asset('img/dc-logo.png') }}" alt="DC Logo" />
+             <img src="{{ asset('img/dc-logo-bg.png') }}" alt="DC Logo" />
          </div>
      </section>
 
