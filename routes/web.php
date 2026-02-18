@@ -15,7 +15,7 @@ Route::get('/characters', function () {
 })->name("characters");
 
 Route::get('/comics/{id}', function ($id) {
-
+    $footerlinks = config('footerlinks');
     $comics = config('comics');   // prende tutti i fumetti
     $comic = $comics[$id] ?? null; // prende quello cliccato
 
@@ -23,5 +23,5 @@ Route::get('/comics/{id}', function ($id) {
         abort(404); // se non esiste → pagina 404
     }
 
-    return view('comic-detail', compact('comic'));
+    return view('comicDetail', compact('comic', 'footerlinks'));
 })->name('comic.show');

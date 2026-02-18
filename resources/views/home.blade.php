@@ -9,11 +9,14 @@
     <section>
         <div class="container">
             <div class="row g-4">
-                @foreach (config('comics') as $comic)
+                @foreach(config('comics') as $index => $comic)
                 <x-card>
-                    <x-slot:thumb>{{ asset($comic['thumb']) }}</x-slot:thumb>
+                    <x-slot:thumb>{{ $comic['thumb'] }}</x-slot:thumb>
                     <x-slot:description>{{ $comic['description'] }}</x-slot:description>
                     {{ $comic['series'] }}
+
+                    <!-- Link alla pagina dettaglio -->
+                    <a class="btn btn-primary d-block" href="{{ route('comic.show', ['id' => $index]) }}">Dettaglio</a>
                 </x-card>
                 @endforeach
             </div>
