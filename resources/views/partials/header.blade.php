@@ -3,7 +3,7 @@
         <img class="logo" width="60" src="{{ asset('img/dc-Logo.png') }}" alt="DC Logo" />
         <div class="d-flex gap-3">
             <div>
-                <a class="nav-link" href="#">CHARACTERS</a>
+                <a class="nav-link" href="/characters">CHARACTERS</a>
             </div>
             <div>
                 <a class="nav-link active" href="/">COMICS</a>
